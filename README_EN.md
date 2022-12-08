@@ -41,12 +41,19 @@ Full support for make do
 For the normal use and installation of iOSOpendev, no changes are required.
 
 Compile the log. 
+
 During the compilation process, the console will display the current log. Please ignore it.
+
 If the console displays as follows:
+
 ldid: Unknown header magic
+
 Are you sure that is a Mach-O?
+
 ldid: operator(): No such file or directory
+
 make uninstall
+
 make installl
 
 **Jailbreak Directory**
