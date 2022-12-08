@@ -1,26 +1,31 @@
 **What developers need to know**
 
-After you get the tool, you will need to sign the ipa or use Trollstore to install it to your device, so you can open the app.
+After you get the tool, you'll need to sign the ipa or use Trollstore to install it to your device, so you can open the app.
 
 **Supported development environments**
 
 Compatible with all development environments you currently use.
-Currently, the debugserver perfectly supports the debugging of additional processes (you do not need to do anything.)
+Currently, the debugserver fully supports the debugging of additional processes (you don't need to do anything.)
 
 **Environment repair**
 
 If your environment is damaged, you can restart your phone, turn on the "rebuild jailbreak rnvironment" switch, and then turn on the jailbreak.
 
-If there is a Sileo 522 error, try to repair the sileo language. If it's invalid for you, try to restore the phone settings.
+If there is a Sileo 522 error, try to repair the sileo language. If it's invalid for you, try to restore phone settings.
 
-**What developers need to prepare**
+**Connecting to the device**
 
 Configure the complete ssh port 22
-Configure SSH password free root password on the console (default: alpine) 
-Unable to repair password temporarily
-ssh-copy-id -i $HOME/.ssh/id_ rsa. Pub root @ your ip
 
-**Precautions**
+Configure SSH password free root password on the console (default: alpine) 
+
+Unable to repair password temporarily
+
+`ssh-copy-id -i $HOME/.ssh/id_ rsa` 
+
+Pub root @ your ip
+
+**Warning!**
 
 The current test version only supports 15.0-15.1.1 A12-A15-M1. 
 Rootless jailbreak supports some tweaks. Some unsupported tweaks need to be updated by the plug-in author to support rootless environments. This version integrates Sileo, TrollStore, ssh, libsubstitute, Libhooker, Procursus, Bigboss, etc.
@@ -70,7 +75,7 @@ jailbreak_ safe (non ending) function can be started again without exploiting vu
 Jailbreakd (cannot be ended) Function signature and all signing permission related operations
 
 
-**BUGS**
+### **BUGS**
 White icon of known third-party system process (will be solved in future update)
 
 
@@ -80,7 +85,7 @@ Test available plug-ins: (Continuously updating)
 
 
 
-Version 1.1.3.6 changelog: 
+## Version 1.1.3.6 changelog: 
  
 * Fixing the problem of usb stuck
 
@@ -92,8 +97,8 @@ Version 1.1.3.6 changelog:
 
 * Fix some possible restart problems
 
-* Fix testlight failure to update
+* Fix testlight failing to update
 
-* Fix the problem of third-party program injection failure
+* Fix the problem of third-party programs failing to inject
 
-To correctly install the new version, restart the phone and select "reinstall the jailbreak environment" and jailbreak
+To install the new version, restart the phone and select "reinstall the jailbreak environment" and jailbreak
